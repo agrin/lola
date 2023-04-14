@@ -25,31 +25,6 @@ Move.lock
 # Thumbnails
 ._*
 
-# Emacs
-\#*\#
-.\#*
-
-# Python
-.pyc
-
-# Node.js
-node_modules
-.tsbuildinfo
-*.tsbuildinfo
-.turbo
-
-# App build directories
-dist/
-storybook-static/
-web-ext-artifacts/
-.next/
-next-env.d.ts
-
-# App test artifacts
-coverage/
-playwright-report/
-playwright/.cache/
-
 # logs
 wallet.log.*
 sui.log.*
