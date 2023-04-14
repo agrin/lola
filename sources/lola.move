@@ -44,4 +44,3 @@ module lola::lola {
 
     // Part 6: Private functions (if any)
 }
-
