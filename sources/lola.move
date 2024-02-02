@@ -22,7 +22,7 @@ module lola::lola {
         let admin = Forge {
             id: object::new(ctx),
             swords_created: 0,
-        };
+        };        
         // Transfer the forge object to the module/package publisher
         transfer::transfer(admin, tx_context::sender(ctx));
     }
@@ -37,7 +37,7 @@ module lola::lola {
     }
 
     public fun swords_created(self: &Forge): u64 {
-        self.swords_created
+        self.swords_created 
     }
 
     // Part 5: Public/entry functions (introduced later in the tutorial)
